@@ -419,7 +419,7 @@ end TCL_Generic;
     <comp loc="(1840,330)" name="LShift"/>
     <comp lib="0" loc="(1720,330)" name="Constant">
       <a name="width" val="16"/>
-      <a name="value" val="0x2"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(1660,380)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -440,7 +440,7 @@ end TCL_Generic;
     <comp loc="(1330,310)" name="LShift"/>
     <comp lib="0" loc="(1210,310)" name="Constant">
       <a name="width" val="16"/>
-      <a name="value" val="0x2"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(1530,250)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -713,7 +713,7 @@ end TCL_Generic;
       <a name="addrWidth" val="16"/>
       <a name="dataWidth" val="16"/>
       <a name="contents">addr/data: 16 16
-0
+2401
 </a>
     </comp>
     <comp lib="0" loc="(900,730)" name="Tunnel">
@@ -797,7 +797,6 @@ end TCL_Generic;
     <comp loc="(360,600)" name="pc_reg"/>
     <comp lib="0" loc="(400,540)" name="Constant">
       <a name="width" val="16"/>
-      <a name="value" val="0x2"/>
     </comp>
     <comp lib="0" loc="(900,930)" name="Tunnel">
       <a name="label" val="j"/>
@@ -878,7 +877,9 @@ end TCL_Generic;
       <a name="bit14" val="2"/>
       <a name="bit15" val="2"/>
     </comp>
-    <comp lib="0" loc="(970,1230)" name="Constant"/>
+    <comp lib="0" loc="(970,1230)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(970,1250)" name="Constant">
       <a name="width" val="8"/>
       <a name="value" val="0x0"/>
@@ -5277,6 +5278,8 @@ end TCL_Generic;
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
       <a name="appear" val="center"/>
+      <a name="bit0" val="2"/>
+      <a name="bit2" val="0"/>
     </comp>
     <comp lib="1" loc="(1040,1110)" name="OR Gate"/>
     <comp lib="0" loc="(980,620)" name="Tunnel">
